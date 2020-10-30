@@ -1,0 +1,68 @@
+html, body, p, a, ul, ol, h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #eeeeee;
+}
+
+h1 {
+    margin-left: 140px;
+    margin-top: 25px;
+    font-size: 40px;
+}
+
+.column {
+    flex-direction: column;
+    flex: 1;
+    margin-bottom: 0px;
+    font-size: 22px;
+}
+
+.line {
+    width: 5%;
+    margin: 0 0 0 7.5%;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.inStock {
+    background-color: white;
+    display: flex;
+    width: 1600px;
+    border: 3px;
+    border-radius: 2px;
+    box-shadow: 3px 3px #7a7a7a;
+    padding: 17px;
+    margin: 17px 0px;
+}
+
+#clickMe {
+    display: inline-block;
+    padding:10px;
+    border-radius: 3px;
+    margin-left: 150px;
+    font-size: 20px;
+    border: 3px black;
+    border-radius: 2px;
+    box-shadow: 3px 3px 3px 3px #7a7a7a;
+  }
+  
+  #clickMe:hover {
+    cursor: pointer;
+  }
+  
+  .darkMode {
+    background-color: black;
+    color: white;
+  }
+
+  .darkModeTwo {
+    background-color: rgb(88, 88, 88);
+    color: white;
+  }
